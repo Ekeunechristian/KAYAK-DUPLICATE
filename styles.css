@@ -11,7 +11,7 @@ li{
 /* Styling for header */
 header{
     background-color: white;
-    height: 100px;
+    height: 80px;
     
 }
 /* Styling for navigation bar */
@@ -26,7 +26,7 @@ nav{
     align-items: center;
 }
 .nav1{
-    padding: 10px 0px 0px 17px;
+    padding: 0px 0px 0px 17px;
 }
 .nav-menu{
     padding: 15px;
@@ -49,20 +49,23 @@ nav{
 .heart{
     width: 100%;
     height: auto;
-    margin-right: 10px;
-    padding: 20px;
+    margin-right: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
 }
 .heart:hover{
     background-color: rgba(190, 217, 244, 0.395);
     border-radius:9px;
     cursor: pointer;
+    
 }
 .login{
     display: flex;
     justify-content: space-between;
-    padding: 15px 20px 15px 20px; 
+    padding: 10px 15px 10px 15px; 
     border: 1px solid black;
     border-radius: 9px;
+    margin-bottom: 7px;
 }
 .login:hover{
     background-color: rgba(190, 217, 244, 0.395);
@@ -73,7 +76,8 @@ nav{
     padding-right: 10px;
 }
 .first-p{
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: 4px;
 }
 /* Styles for the aside Navigation menu */
 aside{
@@ -126,7 +130,7 @@ aside:hover{
 }
  .aside-logo{
     width: auto;
-    height: 35px;
+    height: 30px;
     color: grey;
 } 
 .aside-text{
