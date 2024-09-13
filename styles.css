@@ -1,0 +1,73 @@
+/* Styling for the entire body */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Styling for header */
+header{
+    background-color: white;
+    height: 100px;
+}
+/* Styling for navigation bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1 , .nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    padding: 10px 0px 0px 17px;
+}
+.nav-menu{
+    padding: 15px;
+    cursor: pointer;
+}
+.nav-menu:hover{
+    background-color: rgba(190, 217, 244, 0.395);
+    border-radius:9px;
+}
+.kayak-logo{
+    width: 100%;
+    height: 80px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.nav2{
+    padding: 10px 17px 0px 0px;
+    justify-content: space-between;
+}
+.heart{
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    padding: 15px;
+}
+.heart:hover{
+    background-color: rgba(190, 217, 244, 0.395);
+    border-radius:9px;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px; 
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.login:hover{
+    background-color: rgba(190, 217, 244, 0.395);
+    border-radius:9px;
+    cursor: pointer;
+}
+.user{
+    padding-right: 10px;
+}
+.first-p{
+    font-size: 20px;
+}
