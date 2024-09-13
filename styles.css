@@ -14,6 +14,10 @@ header{
     height: 80px;
     
 }
+.main{
+    display: flex;
+    flex-direction: column;
+}
 /* Styling for navigation bar */
 nav{
     display: flex;
@@ -145,4 +149,16 @@ aside:hover{
     border-radius: 5px;
     background-color: black;
     color: white;
+}
+
+/* Styles for the main section of the site */
+
+main{
+    margin: 2px;
+
+}
+main p{
+    
+    font-size: 70px;
+    
 }
